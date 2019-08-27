@@ -12,15 +12,14 @@
 </head>
 <body>
 
-<form action="pagina destino.html">
+<form action="" method="">
 
-    <table cellspacing="6" cellpadding="2" border="1">
+    <table cellspacing="6" cellpaddin:="2" border="1">
         <tr>
             <td colspan="2">
                 <input type="radio" name="tipo" value="solicitante"/>Solicitante
                 <input type="radio" name="tipo" value="prestamista"/>Prestamista
             </td>
-
         </tr>
         <tr>
             <td>Rut:</td>

@@ -23,21 +23,25 @@
 <%--      out.print(error);--%>
 <%--    }--%>
 <%--  %>--%>
-<form action="Inicio" method="post">
+<form action="" method="">
 
     <table cellspacing="4" cellpadding="4" border="1">
         <tr>
-            <td>Usuario:</td>
-            <td><input type="text" name="usuario"/></td>
+            <td>Rut:</td>
+            <td><input type="text" name="rut"/></td>
         </tr>
         <tr>
             <td>Contraseña:</td>
             <td><input type="password" name="pass"/></td>
         </tr>
-
+        <tr>
+            <td colspan="2">
+                <a href="registro.jsp"><input type="button" value="Crear cuenta"></a>
+                <input type="submit" value="Ingresar">
+            </td>
+        </tr>
     </table>
-    <a href="registro.jsp"><input type="button" value="Crear cuenta"></a>
-    <input type="submit" value="Iniciar sesion">
+
 
 </form>
 
