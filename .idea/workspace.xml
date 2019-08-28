@@ -6,20 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6abf113-ee57-46d7-925b-c650001862e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_48.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/Conexion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/PrestamoDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/SolicitudDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/UsuarioDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/impl/ConnectionMysql.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/impl/PrestamoDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/impl/SolicitudDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/impl/UsuarioDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/examen_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/examen_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/examen.iml" afterDir="false" />
-    </list>
+    <list default="true" id="c6abf113-ee57-46d7-925b-c650001862e7" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/dao/impl/ConnectionMysql.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="85">
+              <caret line="9" column="46" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -289,12 +276,20 @@
       <workItem from="1566974236607" duration="1859000" />
       <workItem from="1567014790673" duration="169000" />
       <workItem from="1567014986543" duration="853000" />
-      <workItem from="1567015864437" duration="3236000" />
+      <workItem from="1567015864437" duration="4207000" />
     </task>
+    <task id="LOCAL-00001" summary="Se crearon las interfaces dao de usuario, prestamo, solicitud y conexion con sus clases de implementacion para el manejo de conexiónes y metodos de acceso a datos">
+      <created>1567020275306</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567020275306</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24972000" />
+    <option name="totallyTimeSpent" value="25943000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -370,6 +365,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Se crearon las interfaces dao de usuario, prestamo, solicitud y conexion con sus clases de implementacion para el manejo de conexiónes y metodos de acceso a datos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se crearon las interfaces dao de usuario, prestamo, solicitud y conexion con sus clases de implementacion para el manejo de conexiónes y metodos de acceso a datos" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/web/solicitante.jsp">
@@ -551,8 +550,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dao/impl/ConnectionMysql.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="85">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="46" />
         </state>
       </provider>
     </entry>
