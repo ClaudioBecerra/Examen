@@ -12,7 +12,7 @@
 </head>
 <body>
 
-<form action="" method="">
+<form action="usuario" method="post">
 
     <table cellspacing="6" cellpaddin:="2" border="1">
         <tr>
@@ -23,7 +23,7 @@
         </tr>
         <tr>
             <td>Rut:</td>
-            <td><input type="text" name="rut"/></td>
+            <td><input type="text" name="rut" size="10"/></td>
 
         </tr>
         <tr>
@@ -40,12 +40,13 @@
         </tr>
         <tr>
             <td>Dinero:</td>
-            <td><input type="number"></td>
+            <td><input name="monto" type="number"></td>
         </tr>
     </table>
 
 
     <a href="index.jsp"><input type="button" value="Ya tengo cuenta"/></a>
+    <input type="hidden" name="ruta" value="registro"/>
     <input type="submit" value="Crear"/>
 
 </form>

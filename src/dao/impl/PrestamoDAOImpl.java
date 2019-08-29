@@ -14,9 +14,13 @@ import java.util.List;
 public class PrestamoDAOImpl implements PrestamoDAO {
 
     private Conexion conexionMysql = new ConnectionMysql();
-
+    //crear un prestamo
     @Override
     public Prestamo crearPrestamo(Prestamo prestamo) {
+
+
+
+
         return null;
     }
 

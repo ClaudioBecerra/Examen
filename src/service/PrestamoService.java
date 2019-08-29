@@ -11,4 +11,5 @@ public interface PrestamoService {
     List<Prestamo> getPrestamosPorUsuarioPrestamista(Long idUsuarioPrestamista);
 
     List<Prestamo> getPrestamosPorUsuarioSolicitante(Long idUsuarioSolicitante);
+
 }
